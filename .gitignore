@@ -1,0 +1,152 @@
+# ==============================================================================
+# Flutter & Dart
+# ==============================================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+app.*.symbols
+app.*.map.json
+
+# ==============================================================================
+# Sensitive Information & Credentials (DO NOT COMMIT TO PUBLIC REPO)
+# ==============================================================================
+# Environment variables
+.env
+.env.*
+*.env
+
+# Android keystores and signing credentials
+key.properties
+*.jks
+*.keystore
+*.key
+*.p12
+*.pfx
+*.pem
+*.cer
+*.der
+
+# API keys & service credentials
+credentials.json
+secrets.json
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+
+# ==============================================================================
+# Platform Specific: Android
+# ==============================================================================
+.gradle/
+android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/**/build/
+**/android/app/build/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ==============================================================================
+# Platform Specific: iOS & macOS
+# ==============================================================================
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/.symlinks/
+**/ios/Pods/
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/.symlinks/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# ==============================================================================
+# Platform Specific: Desktop (Windows / Linux)
+# ==============================================================================
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# ==============================================================================
+# Local Databases & SQLite Dumps
+# ==============================================================================
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.db
+*.db-shm
+*.db-wal
+
+# ==============================================================================
+# IDEs & Text Editors
+# ==============================================================================
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Visual Studio Code
+.vscode/
+
+# Atom / Sublime / Editors
+.atom/
+*.sublime-project
+*.sublime-workspace
+.history/
+*.swp
+*.swo
+
+# ==============================================================================
+# Operating System Artifacts
+# ==============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==============================================================================
+# Miscellaneous / Logs / Temporary
+# ==============================================================================
+*.log
+*.bak
+*.tmp
+*.temp
+migrate_working_dir/
+.build/
+.buildlog/
+.swiftpm/
+.svn/
+
+# Python cache & test files (migration & tools)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/

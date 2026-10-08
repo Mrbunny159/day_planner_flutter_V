@@ -1,0 +1,68 @@
+{
+  "settings": {
+    "task_color": [
+      60,
+      100,
+      200,
+      180
+    ],
+    "task_border_color": [
+      100,
+      150,
+      220
+    ],
+    "break_color": [
+      60,
+      120,
+      80,
+      180
+    ],
+    "break_border_color": [
+      100,
+      200,
+      120
+    ],
+    "background_color": [
+      240,
+      240,
+      240
+    ],
+    "day_start_minute": 540,
+    "day_end_minute": 1080,
+    "time_font_size": 10,
+    "time_font_bold": true,
+    "theme": "Default"
+  },
+  "blocks": [
+    {
+      "name": "Untitled",
+      "start_minute": 961,
+      "duration": 180,
+      "completed": false,
+      "type": "task",
+      "tag_color": null,
+      "recurring": "none",
+      "theme": "Default"
+    },
+    {
+      "name": "sadfgUntitled",
+      "start_minute": 765,
+      "duration": 195,
+      "completed": false,
+      "type": "task",
+      "tag_color": null,
+      "recurring": "daily",
+      "theme": "Default"
+    },
+    {
+      "name": "Tea",
+      "start_minute": 720,
+      "duration": 45,
+      "completed": false,
+      "type": "break",
+      "tag_color": null,
+      "recurring": "daily",
+      "theme": "Default"
+    }
+  ]
+}
